@@ -9,7 +9,7 @@
 }
 @media (max-width: 1024px) {
     .header-nav {
-        width: 550px;
+        width: 556px;
     }
     .hero-title h1 {
         font-size: 33px;
@@ -90,10 +90,13 @@
 }
 @media (max-width: 451px) {
     .hero-title p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .hero-title h1 {
-        font-size: 33px;
+        font-size: 31px;
+    }
+    .dsi-title h1 {
+        font-size: 29px;
     }
     .dsi-title p {
         font-size: 14px;
@@ -113,11 +116,8 @@
 }
 
 @media (max-width: 400px) {
-
-    element.style {
-    }
-    .dsi-title h1 {
-        font-size: 28px;
+    .hero-title p {
+        font-size: 13px;
     }
     .dsi-title p {
         font-size: 12px;
@@ -125,44 +125,44 @@
     }
 }
 @media (max-width: 376px) {
-    .hero-title h1 {
-        font-size: 28px;
-    }
     .hero-title button {
         width: 98px;
         height: 33px;
         font-size: 13px;
     }
-    .dsi-title h1 {
-        font-size: 26px;
-    }
     .dsi-title p {
         font-size: 11px;
         line-height: 204%;
     }
-    .product h1 {
-        font-size: 23px;
+    .block {
+        width: 98px;
+        height: 33px;
+        font-size: 13px;
     }
-    }
-}@media (max-width: 320px) {
+
+}
+@media (max-width: 320px) {
 
     .header img {
-        width: 32%;
+        width: 31%;
     }
     .header-icon a {
         font-size: 21px;
     }
     .hero-title h1 {
-        font-size: 24px;
+        font-size: 26px;
     }
     .hero-title p {
         font-size: 11px;
     }
     .dsi-title h1 {
-        font-size: 19px;
+        font-size: 21px;
     }
     .dsi-title p {
         font-size: 10px;
         line-height: 2004%;
+    }
+    .product-blocks {
+        font-size: 25px;
     }
 }
